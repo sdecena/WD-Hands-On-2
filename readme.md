@@ -116,11 +116,13 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Hero and Card 1 Image | Image used for hero page 1 | https://www.wallpaperflare.com/los-angeles-lakers-kobe-bryant-shooting-guard-best-basketball-players-of-2015-wallpaper-qpptc/download |
 | Hero and Card 2 Image | Image used for hero page 2 | https://in.pinterest.com/pin/803118546056566518/ |
 | Hero and Card 3 Image | Image used for hero page 3 | https://jujutsu-kaisen.fandom.com/wiki/Takuma_Ino |
+| Hero and Card 3 Info | Info used for hero page 3 | https://jujutsu-kaisen.fandom.com/wiki/Takuma_Ino |
 | Hero and Card 4 Image | Image used for hero page 4 | https://www.hdwallpapers.in/samurai_warrior_4k_hd_ghost_of_tsushima-wallpapers.html |
+| Hero and Card 5 Image | Image used for hero page 5 | https://wall.alphacoders.com/big.php?i=160825 |
+| Hero and Card 5 Info | Info used for hero page 5 | https://tekken.fandom.com/wiki/King#Trivia |
 | JJK Logo | Image used for hero page 3 logo | https://commons.wikimedia.org/wiki/File:Jujutsu_Kaisen_logo_%28Japanese_anime%29.svg |
 | Box Shadow Effect | For using the shadow effect | https://getcssscan.com/css-box-shadow-examples?fbclid=IwAR3svdTLs_lfxhfeQkdAVErKgm2YHyEcB4_Gpq1livLkKMEAVf0ew5D2TFA |
 | Text Glow Effect | Used for glow effect on text | https://stackoverflow.com/questions/40393497/text-outer-glow-effect-using-css |
