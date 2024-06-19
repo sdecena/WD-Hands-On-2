@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "Josefin Sans", sans-serif;
+    background-image: url(../img/ino-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.home3-link {
+    color: rgb(244, 240, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    text-underline-offset: 4px;
+}
+
+.jjk-logo img {
+    width: 200px;
+    margin-left: 1250px;
+}
+
+.hero-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 210px;
+    color: rgba(255, 255, 255, 0.008);
+    text-shadow:1px 11px 10px #0099c3ce, 1px 1px 30px #00a2c7;
+    -webkit-text-stroke: 6px rgba(0, 118, 235, 0.958);
+
+
+    & h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 7.5rem;
+        font-weight: 1000;
+        font-style: italic;
+    }
+}
+.hero-name2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 176px;
+    margin-top: -160px;
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    text-shadow:1px 1px 10px #ffffff00, 1px 1px 100px #dfd9d98b;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+
+
+    & h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 7.5rem;
+        font-weight: 1000;
+        font-style: italic;
+    }
+
+}
+
+.hero-name3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    & p {
+        font-size: 1.6rem;
+        color: rgb(255, 255, 255);
+        font-weight: 300;
+        letter-spacing: 10px;
+    }
+}
+
+.ino-cutout {
+    position: fixed;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 79%;
+    height: 100%;
+    background-image: url(../img/ino-nobg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.ino-info {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 960px;
+    margin-top: 475px;
+    color: rgb(244, 240, 142);
+    background-color: rgba(251, 251, 251, 0.059);
+    backdrop-filter: blur(2px);
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.305);
+    width: 20vw;
+    height: 19vh;
+    z-index: 0;
+
+    & p {
+        font-size: 1rem;
+        font-weight: 300;
+        font-style: italic;
+        text-align: justify;
+    }
+
+}
+
+.school-info {
+    font-weight: 500;
+}
+.grade-info {
+    font-weight: 500;
+}
+.manga-info {
+    font-weight: 500;
+}
+
+.ino-info2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 196px;
+    margin-top: 120px;
+    color: rgb(244, 240, 142);
+    background-color: rgba(251, 251, 251, 0.059);
+    backdrop-filter: blur(2px);
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.305);
+    width: 30vw;
+    height: 20vh;
+    z-index: 0;
+
+    & p {
+        font-size: .9rem;
+        font-weight: 300;
+        font-style: italic;
+        margin-bottom: 7px;
+    }
+
+    & h3 {
+        font-size: 1rem;
+        letter-spacing: 5px;
+        margin-bottom: 7px;
+
+    }
+}
+

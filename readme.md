@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/sdecena/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=sdecena/WD-Hands-On-2)
 
 ---
 
@@ -76,7 +76,6 @@ Guiding Question:
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -118,3 +117,11 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Hero and Card 1 Image | Image used for hero page 1 | https://www.wallpaperflare.com/los-angeles-lakers-kobe-bryant-shooting-guard-best-basketball-players-of-2015-wallpaper-qpptc/download |
+| Hero and Card 2 Image | Image used for hero page 2 | https://in.pinterest.com/pin/803118546056566518/ |
+| Hero and Card 3 Image | Image used for hero page 3 | https://jujutsu-kaisen.fandom.com/wiki/Takuma_Ino |
+| Hero and Card 4 Image | Image used for hero page 4 | https://www.hdwallpapers.in/samurai_warrior_4k_hd_ghost_of_tsushima-wallpapers.html |
+| JJK Logo | Image used for hero page 3 logo | https://commons.wikimedia.org/wiki/File:Jujutsu_Kaisen_logo_%28Japanese_anime%29.svg |
+| Box Shadow Effect | For using the shadow effect | https://getcssscan.com/css-box-shadow-examples?fbclid=IwAR3svdTLs_lfxhfeQkdAVErKgm2YHyEcB4_Gpq1livLkKMEAVf0ew5D2TFA |
+| Text Glow Effect | Used for glow effect on text | https://stackoverflow.com/questions/40393497/text-outer-glow-effect-using-css |
+| Text Orientation | Used for text orientation of other elements | https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation |
