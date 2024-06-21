@@ -143,5 +143,6 @@ Started on the first 2 Animated Cards.
 - 06/20: Finished the 5 Animated Card Designs
 ---
 
+
 ## Deployment Link
-Link: 
+Link: https://sdecena.github.io/WD-Hands-On-2/
