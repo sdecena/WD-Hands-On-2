@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/sdecena/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/pic-page.png" alt="Nyebe" width="180" height="180">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Hands On 2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This activity is for us to showcase different designs and layouts of Hero and Card pages
 </div>
 
 <br />
@@ -48,6 +48,12 @@
     <li>
       <a href="#resources">Resources</a>
     </li>
+      <li>
+      <a href="#documentation">Documentation</a>
+    </li>
+      <li>
+      <a href="#deployment-link">Deployment Link</a>
+    </li>
   </ol>
 </details>
 
@@ -59,18 +65,15 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+
+We are tasked with creating five different designs of hero and card pages, using HTML and CSS. The purpose of the project is to develop and improve our web design skills and creativity. The key components include the layout and styling of hero sections, card elements, and the use of animations. The technology used is HTML and CSS, HTML is used to structure the content, while CSS is used to style the pages and create animations.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Hover Animations
+- 5 Hero and Card Designs
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -127,3 +130,18 @@ WD-ProjectName
 | Box Shadow Effect | For using the shadow effect | https://getcssscan.com/css-box-shadow-examples?fbclid=IwAR3svdTLs_lfxhfeQkdAVErKgm2YHyEcB4_Gpq1livLkKMEAVf0ew5D2TFA |
 | Text Glow Effect | Used for glow effect on text | https://stackoverflow.com/questions/40393497/text-outer-glow-effect-using-css |
 | Text Orientation | Used for text orientation of other elements | https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation |
+
+
+## Documentation
+- 06/17: Started creating the landing page of the website.
+---
+- 06/18: Added the first 3 Hero and Card Designs
+---
+- 06/19: Finished the 5 Hero and Card Designs.
+Started on the first 2 Animated Cards.
+---
+- 06/20: Finished the 5 Animated Card Designs
+---
+
+## Deployment Link
+Link: 

@@ -19,12 +19,15 @@ body {
     background-size: 100% 130%;
 }
 
+.hero-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
 .home-link {
     color: rgb(255, 213, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
     text-underline-offset: 4px;
 }
 
@@ -33,6 +36,8 @@ body {
     margin-left: 1290px;
     margin-top: 320px;
     position: absolute;
+    cursor: pointer;
+    transition: all 2s ease;
 
     & h3 {
         font-size: 3.5em;
@@ -40,6 +45,10 @@ body {
         text-shadow: 5px 5px 3px rgb(0, 0, 0);
         -webkit-text-stroke: 3px rgb(255, 213, 0);
     }
+}
+
+.kobe-number:hover {
+    transform: rotateY(360deg)
 }
 
 .hero-name {
@@ -50,7 +59,6 @@ body {
     margin-top: 270px;
     margin-left: 490px;
     margin-bottom:40px;
-    background-c olor: rgba(153, 205, 50, 0.437);
 
     & h1 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -76,7 +84,7 @@ body {
     backdrop-filter: blur(10px);
     outline: 3px solid rgb(200, 176, 23);
     box-shadow: -6px 6px 9px rgba(255, 255, 255, 0.288);
-
+    transition: all 0.3s ease;
 
     & h3 {
         font-size: 1rem;
@@ -92,6 +100,10 @@ body {
     }
 }
 
+.card-info:hover {
+    transform: scale(1.1);
+    box-shadow: -6px 6px 15px rgba(255, 255, 255, 0.5);
+}
 
 .card-info2 {
     display: flex;
@@ -104,10 +116,9 @@ body {
     backdrop-filter: blur(10px);
     outline: 1px solid rgb(192, 198, 25);
     box-shadow: 6px 6px 9px rgba(255, 255, 255, 0.286);
-
     width: 45vw;
     height: 18vh;
-
+    transition: all 0.3s ease;
 
     & p {
         font-size: 1.4rem;
@@ -116,4 +127,18 @@ body {
         margin-left: 10px;
         margin-right: 10px;
     }
+}
+
+
+.card-info2:hover {
+    transform: scale(1.1);
+    color: rgba(240, 248, 255, 0);
+    box-shadow: -6px 6px 15px rgba(255, 255, 255, 0.5);
+    background-image: url(../img/hover-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 60vw 60vh;
+
+
 }

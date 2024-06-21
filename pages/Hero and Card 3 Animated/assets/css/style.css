@@ -17,12 +17,15 @@ body {
     background-size: cover;
 }
 
-.home3-link {
-    color: rgb(244, 240, 142);
+.hero3-links {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.home-link {
+    color: rgb(244, 240, 142);
     text-underline-offset: 4px;
 }
 
@@ -77,16 +80,24 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 69%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 68%;
+    left: 43%;
     z-index: 2;
-
+    transition: all .3s ease;
     & p {
         font-size: 1.6rem;
         color: rgb(255, 255, 255);
         font-weight: 300;
         letter-spacing: 10px;
+    }
+}
+
+.hero-name3:hover {
+    transform: scale(1.2);
+
+    & p {
+        font-weight: 600;
+        text-shadow: 1px 1px 3px #00a2c7 ;
     }
 }
 
@@ -118,7 +129,8 @@ body {
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.305);
     width: 20vw;
     height: 19vh;
-    z-index: 0;
+    z-index: 1;
+    transition: all 2s ease;
 
     & p {
         font-size: 1rem;
@@ -127,6 +139,11 @@ body {
         text-align: justify;
     }
 
+}
+
+.ino-info:hover {
+    margin-left: 250px;
+    box-shadow: 2px 2px 5px rgb(244, 240, 142);
 }
 
 .school-info {
@@ -154,7 +171,8 @@ body {
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.305);
     width: 30vw;
     height: 20vh;
-    z-index: 0;
+    z-index: 1;
+    transition: all 2s ease;
 
     & p {
         font-size: .9rem;
@@ -171,3 +189,7 @@ body {
     }
 }
 
+.ino-info2:hover {
+    margin-left: 900px;
+    box-shadow: 2px 2px 5px rgb(244, 240, 142);
+}

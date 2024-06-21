@@ -17,18 +17,24 @@ body {
     background-size: cover;
 }
 
-.home5-link {
+.hero5-links {
     color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    gap: 20px;
+    padding: 10px 0;
     text-underline-offset: 4px;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1000;
     width: 100vw;
+}
+
+.home-link {
+    color: rgba(21, 42, 120, 0.856);
+    text-underline-offset: 4px;
 }
 
 .king-name {
@@ -59,7 +65,7 @@ body {
     background-position: center;
     background-size: contain;
     filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
-    z-index: 3;
+    z-index: 0;
 }
 
 .king-info {
@@ -75,8 +81,8 @@ body {
     backdrop-filter: blur(2px);
     width: 45vw;
     height: 20vh;
-    z-index: 0;
-
+    z-index: 2;
+    transition: all 500ms ease;
 
     & p {
         font-size: 1.1rem;
@@ -90,6 +96,11 @@ body {
         color: rgb(0, 21, 96);
         font-weight: 700;
     }
+}
+
+.king-info:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 21, 96, 0.504) -5px 5px, rgba(0, 21, 96, 0.488) -10px 10px, rgba(0, 21, 96, 0.225) -15px 15px, rgba(0, 21, 96, 0.115) -20px 20px, rgba(0, 21, 96, 0.06) -25px 25px;
 }
 
 .king-info2 {
@@ -106,7 +117,8 @@ body {
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.305);
     width: 31vw;
     height: 8vh;
-    z-index: 2;
+    z-index: 5;
+    transition: all 500ms;
 
     & p {
         font-size: 1rem;
@@ -123,6 +135,26 @@ body {
 
 }
 
+.king-info2:hover {
+    transform: scale(1.2);
+    background-image: url(../img/tekken-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25vw;
+    box-shadow: -6px 6px 9px rgba(195, 195, 195, 0.597);
+    outline: 4px solid rgb(0, 0, 0);
+    border-radius: 5px;
+
+    & p {
+        color: #00000000;
+    }
+
+    & span {
+        color: #00000000;
+
+    }
+}
+
 .king-info3 {
     position: absolute;
     display: flex;
@@ -131,10 +163,9 @@ body {
     margin-top: -620px;
     color: rgba(21, 42, 120, 0.856);
     text-shadow: 5px 5px 3px rgb(63, 63, 63);
-    background- color: rgba(0, 0, 0, 0.323);
     width: 15vw;
-    height: 95  vh;
-    z-index: 1;
+    height: 95vh;
+    z-index: -1;
 
     & p {
         text-orientation: upright;

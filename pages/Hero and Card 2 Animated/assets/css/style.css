@@ -19,12 +19,15 @@ body {
     background-size: 100% 130%;
 }
 
-.home2-link {
-    color: rgb(142, 0, 0);
+.hero2-links {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.home-link {
+    color: rgb(184, 18, 18);
     text-underline-offset: 4px;
 }
 
@@ -32,7 +35,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: -5px;
     color: rgba(255, 255, 255, 0);
 
     & h1 {
@@ -45,18 +48,20 @@ body {
     }
 }
 
+
 .f40-cutout {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    width: 60%;
+    width: 32%;
     height: 91.5vh;
     margin-top: 30px;
     background-image: url(../img/f40-nobg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1500px 950px;
+    z-index: 10;
 }
 
 .f40-info {
@@ -68,11 +73,12 @@ body {
     margin-top: 150px;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.534);
-    backdrop-fter: blur(2px);
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.305);
     width: 40vw;
     height: 12vh;
     border-radius: 5px;
+    z-index: 11;
+    transition: all 500ms ease;
 
 
     & p {
@@ -85,8 +91,19 @@ body {
     }
 }
 
-.f40-info2 {
+.f40-info:hover {
+    transform: scale(1.1);
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.534);
+    text-shadow: 1px 1px 13px #ff0000, 1px 1px 13px #cd0000;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(163, 0, 0) 0px 0px 0px 3px;
 
+    & p {
+        font-weight: 500;
+    }
+}
+
+.f40-info2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,12 +111,12 @@ body {
     margin-top: -50px;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.553);
-    backdrop-fter: blur(2px);
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.305);
     width: 20vw;
     height: 18vh;
     border-radius: 5px;
-
+    transition: all 500ms ease;
+    z-index: 5;
 
     & p {
         font-size: 1rem;
@@ -110,6 +127,14 @@ body {
         margin-right: 10px;
         line-height: 24px;
     }
+}
+
+.f40-info2:hover {
+    transform: scale(1.1);
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.534);
+    text-shadow: 1px 1px 13px #ff0000, 1px 1px 13px #cd0000;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(163, 0, 0) 0px 0px 0px 3px;
 }
 
 .f40 {

@@ -17,18 +17,24 @@ body {
     background-size: cover;
 }
 
-.home4-link {
+.hero4-links {
     color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    gap: 20px;
+    padding: 10px 0;
     text-underline-offset: 4px;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1000;
     width: 100vw;
+}
+
+.home-link {
+    color: rgb(0, 0, 0);
+    text-underline-offset: 4px;
 }
 
 
@@ -97,7 +103,6 @@ body {
     margin-left: 630px;
     margin-top: -280px;
     color: rgb(255, 255, 255);
-    backgrou nd-color: rgba(0, 0, 0, 0.323);
     width: 15vw;
     height: 70vh;
 
@@ -122,7 +127,6 @@ body {
     margin-top: -390px;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.534);
-    backdrop-fter: blur(2px);
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.305);
     width: 15vw;
     height: 3vh;
@@ -148,7 +152,6 @@ body {
     margin-top: -125px;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.534);
-    backdrop-fter: blur(2px);
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.305);
     width: 15vw;
     height: 3vh;
